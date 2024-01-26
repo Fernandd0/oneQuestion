@@ -21,10 +21,9 @@ button{
     padding: 0.2em 0.8em;
     color: #000;
     background-color: #fff;
-    border-radius: 5px;
     cursor: pointer;
     border: 1px solid #474747;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
 }
@@ -39,4 +38,16 @@ button{
 
 #noBtn{
     position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 2em;
+        padding: 2em 0.5em;
+    }
+
+    button {
+        font-size: large;
+        padding: 0.5em 1em;
+    }
 }
