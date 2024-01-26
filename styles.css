@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.title{
+    font-size: 3em;
+    padding: 3em 5em;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.2em 0.8em;
+    color: #fff;
+    background-color: #6f42c1;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+#yesBtn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#noBtn{
+    position: absolute;
+}
